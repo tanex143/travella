@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital@1&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.font-perma-marker {
+  font-family: 'Permanent Marker', cursive !important;
+}
+
+.ant-modal-body {
+  padding: 0px !important;
+  min-width: 60%;
+}
+
+#home-section {
+  background-image: url(../images/ocean.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-size: cover;
+  width: 100%;
+}
+
+@media (max-width: 1023px) {
+  #home-section {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 411px) {
+  #home-section {
+    background-size: 600px;
+  }
+}
+
+#about-section {
+  background-image: url(../images/ocean.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
